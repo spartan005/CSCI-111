@@ -1,0 +1,78 @@
+// James Oppy
+1)
+vector<int> numbers;
+int x;
+cin >> x;
+while (x != 0)
+{
+  numbers.push_back(x)
+  cin >> x;
+}
+
+2)
+for (int i = 0; i < numbers.size(); i++)
+{
+  cout << numbers[i] << endl;
+}
+
+3)
+class Coaster {
+  private:
+     string name;
+     int wait;
+     int puke;
+  public:
+     Coaster (string, int, int);
+     string get_name()
+     bool ride_coaster(string n);
+     void wuss_factor(int l);
+};
+
+4)
+Coaster (string s, int w, int p) : name(s), wait(w), puke(p)
+{
+}
+
+5)
+string get_name() 
+{
+  return name;
+}
+
+6)
+bool ride_coaster(string n)
+{
+  Random r(1, 100);
+  if (r.get <= puke)
+    return true;
+  else
+    return false;
+}
+
+7)
+void wuss_factor(int l)
+{
+  puke += l;
+}
+8)
+// there is no function to display the wait times
+for (int i = 0; i < rides.size(); i++)
+{
+}
+
+9)
+1. cout >> x >> endl;
+        ^^   ^^ should be <<
+2. C
+3. var =- 5;
+       ^^ not a syntax error it will work but will make var -5, needs to be -= to take 5 away from var
+4. C
+5. C
+6. C
+7. C
+8. C
+9. C
+10. C
+
+10)
+int num1 = 10;

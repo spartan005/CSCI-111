@@ -1,0 +1,76 @@
+// James Oppy, Second in-class practice final 
+1. James Oppy
+
+2. everything else
+
+3. true
+
+4.
+vector<int> num;
+for (int i = 0; i < 10; i++) {
+ num.push_back(i);
+}
+
+5.
+vector<int> num;
+for (int i = 5; i < -5; i--) {
+ num.push_back(i);
+}
+
+6.
+ip is never given the memory address of the variable its pointing to there is no &
+
+7.
+int num1 = 10;
+
+8.
+cout << &num1 << endl;
+
+9.
+int* ptrA;
+
+10.
+ptrA = &num1;
+
+11.
+cout << *ptrA << endl;
+
+12.
+cout << ptrA << endl;
+
+13.
+int* ptrB = ptrA;
+
+14.
+class Batman {
+ private:
+  string secretIdentity;
+  int grapplingHookLength;
+  int batarangCount;
+  bool nightVision;
+ public:
+  string getSecretIdentity();
+  bool useGrapplingHook(int distanceFromTarget);
+  int throwBatarang(int target, int speed, float damage);
+  void activateNightVision()
+  void deactivateNightVision()
+};
+
+15.
+Link::Link(float s, int a, bool b, char s, string w) : swordStrength(s), arrowCount(a), bowEquipped(b), boomerangShape(s), wordsOfWisdom(w)
+{
+}
+
+16.
+bool Dog::reward(Treat munchie)
+{
+ return hole.hide(munchie);
+}
+
+17.
+bool HidingPlace::hide(Treat munchie;)
+{
+ if (munchie.get_size() > depth)
+  return false;
+ else
+  return true;
